@@ -4,10 +4,11 @@
   "description": "Default ws based signaling server for awrtc_browser and the unity asset WebRtcVideoChat",
   "main": "out/server.js",
   "scripts": {
+    
+    "start": "(cd out && node server.js)",
     "tsc": "tsc",
     "build": "tsc",
-    "start": "(cd out && node server.js)",
-    "postinstall" : "npm run build"
+    "postinstall": "npm run build"
   },
   "repository": {
     "type": "git",
